@@ -1,0 +1,17 @@
+{
+  "name": "Group_B",
+  "version": "1.0.0",
+  "description": "This is the prototype of UIE",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Egor Bazaleev",
+  "license": "",
+  "dependencies": {
+    "body-parser": "1.x",
+    "csvtojson": "2.x",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,334 @@
+[
+{
+    "id" : 1,
+    "name": "Football",
+    "coordinate" : [51.030545,13.752072],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners",
+            "tranier_name" : "Dr. Uladzimir Kalkouski",
+            "day": "FR",
+            "time": "17:00-19:00",
+            "cost": "40/ 70/ 120 €"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Advanced",
+            "tranier_name" : "Dr. Uladzimir Kalkouski",
+            "day": "FR",
+            "time": "19:00-21:00",
+            "cost": "40/ 70/ 120 €"
+        }
+        ],
+    "icon": "img/football.svg",
+    "location_name": "August-Bebel-Str. Sportplatz Feld 1",
+    "adress":"August-Bebel-Str. 18a 01219 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 2,
+    "name": "Futsal",
+    "coordinate" : [51.031186,13.751868],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners&Advanced",
+            "tranier_name" : "Erik Fliedner",
+            "day": "Di",
+            "time": "21:30-23:00",
+            "cost": "40/ 70/ 120 €"
+        }
+    ],
+    "icon": "img/footsal.svg",
+    "location_name": "August-Bebel-Str. Sporthalle",
+    "adress":"Teplitzer Straße 17 01219 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 3,
+    "name": "Schach",
+    "coordinate" : [51.032620,13.735217],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "All",
+            "tranier_name" : "Gengchun Wong",
+            "day": "Fr",
+            "time": "18:30-20:00",
+            "cost": "40/ 70/ 120 €"
+        }
+    ],
+    "icon": "img/chess.svg",
+    "location_name": "Tennisplätze",
+    "adress":"Andreas-Schubert-Str. 51 01069 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 4,
+    "name": "Basketball",
+    "coordinate" : [51.024351,13.724257],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners",
+            "tranier_name" : "Eric Eichler",
+            "day": "Mo",
+            "time": "20:00-21:30",
+            "cost": "20/ 30/ 40 €"
+        }
+    ],
+    "icon": "img/basketball.svg",
+    "location_name": "Nöthnitzer Str. Halle II/3",
+    "adress":"Nöthnitzer Str. 60 01187 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 5,
+    "name": "American Football",
+    "coordinate" : [51.029931,13.752490],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners",
+            "tranier_name" : "Marcel Gewalt",
+            "day": "Di",
+            "time": "17:00-18:30",
+            "cost": "20/ 30/ 40 €"
+        }
+    ],
+    "icon": "img/americanfootball.svg",
+    "location_name": "August-Bebel-Str. Sportplatz Feld 2",
+    "adress":"August-Bebel-Str. 18a 01219 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 6,
+    "name": "Swim",
+    "coordinate" : [51.049529,13.724408],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "All",
+            "tranier_name" : "Ricarda Haußwald",
+            "day": "Di",
+            "time": "06:00-07:00",
+            "cost": "25/ 40/ 60 €"
+        },
+        {
+            "group_id": 2,
+            "group_name": "All",
+            "tranier_name" : "Ellen Kremer",
+            "day": "Di",
+            "time": "13:00-14:00",
+            "cost": "25/ 40/ 60 €"
+        },
+        {
+            "group_id": 3,
+            "group_name": "All",
+            "tranier_name" : "Nico Seffner",
+            "day": "Mi",
+            "time": "08:00-09:00",
+            "cost": "25/ 40/ 60 €"
+        },
+        {
+            "group_id": 4,
+            "group_name": "All",
+            "tranier_name" : "Rut Reich",
+            "day": "Mi",
+            "time": "18:00-19:00",
+            "cost": "25/ 40/ 60 €"
+        }
+    ],
+    "icon": "img/swim.svg",
+    "location_name": "",
+    "adress":"",
+    "photo_of_location": ""
+},
+{
+    "id" : 7,
+    "name": "Badminton",
+    "coordinate" : [51.024705,13.723367],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners",
+            "tranier_name" : "Steffen Bickel",
+            "day": "Mo",
+            "time": "18:30-20:00",
+            "cost": "20/ 30/ 40 €"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Advanced",
+            "tranier_name" : "Steffen Bickel",
+            "day": "Mo",
+            "time": "20:00-21:30",
+            "cost": "20/ 30/ 40 €"
+        },
+        {
+            "group_id": 3,
+            "group_name": "Beginners",
+            "tranier_name" : "Rico Lewerenz",
+            "day": "Mi",
+            "time": "18:30-20:00",
+            "cost": "20/ 30/ 40 €"
+        }
+    ],
+    "icon": "img/badminton.svg",
+    "location_name": "Neue Schwimmhalle 50-m-Bahn",
+    "adress":"Freiberger Platz 1a 01067 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 8,
+    "name": "Riding",
+    "coordinate" : [51.155285,13.682517],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Shortkurs",
+            "tranier_name" : "Yvette Schwertfeger",
+            "day": "optional",
+            "time": "optional",
+            "cost": "120/ 150/ 180 €"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Hiking, fitness & horse riding",
+            "tranier_name" : "Yvette Schwertfeger",
+            "day": "Sa",
+            "time": "optional :: 2 hours",
+            "cost": "120/ 150/ 180 €"
+        },
+        {
+            "group_id": 3,
+            "group_name": "Longkurs",
+            "tranier_name" : "Yvette Schwertfeger",
+            "day": "Sa",
+            "time": "optional",
+            "cost": "120/ 150/ 180 €"
+        }
+    ],
+    "icon": "img/riding.svg",
+    "location_name": "Moritzburg",
+    "adress":"Moritzburg",
+    "photo_of_location": ""
+},
+{
+    "id" : 9,
+    "name": "Tennis",
+    "coordinate" : [51.020052,13.742008],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners",
+            "tranier_name" : "Elke Griger",
+            "day": "Mo",
+            "time": "12:00-13:30",
+            "cost": "45/ 80/ 140 €"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Beginners",
+            "tranier_name" : "Maximilian Ludwig",
+            "day": "Di",
+            "time": "12:00-13:30",
+            "cost": "45/ 80/ 140 €"
+        },
+        {
+            "group_id": 3,
+            "group_name": "Beginners",
+            "tranier_name" : "Janek Heinke",
+            "day": "Mi",
+            "time": "13:30-15:00",
+            "cost": "45/ 80/ 140 €"
+        }
+    ],
+    "icon": "img/tennis.svg",
+    "location_name": "Sportpark Dresden",
+    "adress":"Südhöhe 28 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 10,
+    "name": "Volleyball",
+    "coordinate" : [51.024627,13.724284],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Grundkurs B",
+            "tranier_name" : "Johannes Keil",
+            "day": "Mo",
+            "time": "16:40-18:10",
+            "cost": "20/ 30/ 40 €"
+        },  
+        {
+            "group_id": 2,
+            "group_name": "Grundkurs B",
+            "tranier_name" : "Torsten Borchardt",
+            "day": "Mo",
+            "time": "18:30-20:00",
+            "cost": "20/ 30/ 40 €"
+        }
+    ],
+    "icon": "img/volleyball.svg",
+    "location_name": "Nöthnitzer Str. Halle II/1, II/2, II/3",
+    "adress":"Nöthnitzer Str. 60 01187 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 11,
+    "name": "Table tennis",
+    "coordinate" : [51.024395,13.723356],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Beginners",
+            "tranier_name" : "Gunther Stehr",
+            "day": "Di",
+            "time": "16:40-18:10",
+            "cost": "20/ 30/ 40 €"
+        },  
+        {
+            "group_id": 2,
+            "group_name": "Beginners",
+            "tranier_name" : "Holger Nikelis",
+            "day": "Do",
+            "time": "14:50-16:20",
+            "cost": "20/ 30/ 40 €"
+        }
+    ],
+    "icon": "img/table_tennis.svg",
+    "location_name": "Nöthnitzer Str. Halle I/2",
+    "adress":"Nöthnitzer Str. 60 01187 Dresden",
+    "photo_of_location": ""
+},
+{
+    "id" : 12,
+    "name": "Tennis",
+    "coordinate" : [51.041192,13.859952],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "Advanced",
+            "tranier_name" : "Ralf-Ulrich Mayer",
+            "day": "Fr",
+            "time": "13:30-15:00",
+            "cost": "45/ 80/ 140 €"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Beginners",
+            "tranier_name" : "Nima Sadrikhanloo",
+            "day": "Di",
+            "time": "13:00-15:00",
+            "cost": "45/ 80/ 140 €"
+        }
+    ],
+    "icon": "img/tennis.svg",
+    "location_name": "Tennishalle Pappritz",
+    "adress":"Fernsehturmstraße 3 01328 Dresden",
+    "photo_of_location": ""
+}
+]

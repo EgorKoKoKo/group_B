@@ -1,0 +1,84 @@
+/* Your CSS */
+.main_left_navigation{
+	background: linear-gradient(to bottom, rgb(70, 70, 88) 0%, rgb(33,37,41) 100%);
+	position: absolute;
+	height: calc(100%);
+	width: calc(10%);
+}
+
+.navigation_item{
+	text-decoration:none; 
+	color: white;
+}
+
+#minimize_icon{
+	padding-left: 3svh;
+}
+
+#map{ 
+	position: absolute;
+	height: calc(100%);
+	width: calc(90%);
+	left: calc(10%);
+
+}
+
+li{
+	text-align: center;
+	margin-top: calc(20%);
+	font-weight: 500;
+	font-size: 18px;
+}
+
+li.top{
+	margin-top: calc(10%);
+}
+
+li.bottom{
+	position: absolute; bottom: calc(5%); left: calc(8%); margin-top: none;
+}
+
+.buttom_e{
+	color: black;
+	background: #66cc33;
+	cursor: pointer;
+	font: 99% sans-serif;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	display: inline-block;
+	padding: .1em;
+	margin: 0.5em 0 0;
+	text-decoration: none;
+}
+
+.buttom_rm{
+	color: black;
+	background:#54c0ff ;
+	cursor: pointer;
+	font: 99% sans-serif;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	display: inline-block;
+	padding: .1em;
+	margin: 0.5em 0 0;
+	text-decoration: none;
+}
+
+a.buttom_about_sport{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font: 99% sans-serif;
+	font-size: 18px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 3px 3px 3px 3px;
+}
