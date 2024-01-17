@@ -4,7 +4,7 @@ let markers = new Array();
 // map setup
 var map = L.map('map', {attributionControl: false} ).setView(dresden, 15);
 var myAttrControl = L.control.attribution().addTo(map);
-myAttrControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
+myAttrControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a> | <a href="https://github.com/CartoDB/cartodb/">CartoDB</a>');
 
 // create layers
 const attribution = 'Groupe B: Prototype'
@@ -13,7 +13,7 @@ var normal = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/
 subdomains: 'abcd',
 	maxZoom: 19,
     attribution: attribution
-}).addTo(map);
+});
 
 var dark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 subdomains: 'abcd',
@@ -24,7 +24,7 @@ subdomains: 'abcd',
 var white = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 19,
     attribution: attribution
-});
+}).addTo(map);
 
 var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
    maxZoom: 19,
@@ -33,9 +33,9 @@ var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
 });
 
 var baseMaps = {
+    "White": white,
     "Normal": normal,
     "Dark": dark,
-    "White": white,
     "Satellit": googleSat 
 };
 

@@ -6,32 +6,38 @@
 	width: calc(10%);
 }
 
+#minimize_icon{
+	cursor: pointer;
+	padding-left: 3svh;
+}
+
 .navigation_item{
 	text-decoration:none; 
 	color: white;
 }
 
-#minimize_icon{
-	padding-left: 3svh;
+.menu_text{
+	color: white;
 }
 
-#map{ 
+#content{
 	position: absolute;
 	height: calc(100%);
 	width: calc(90%);
 	left: calc(10%);
+}
 
+#map{ 
+	position: relative;
+	height: calc(100%);
+	width: calc(100%);
 }
 
 li{
 	text-align: center;
-	margin-top: calc(20%);
+	padding-top: 20px;
 	font-weight: 500;
 	font-size: 18px;
-}
-
-li.top{
-	margin-top: calc(10%);
 }
 
 li.bottom{
