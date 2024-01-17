@@ -16,13 +16,11 @@
 </head>
 <body>
 	<div>
-		<div class="main_left_navigation">
+		<div class="main_left_navigation" id="main_left_navigation" role="navigation">
 			<ul>
 				<li class="top">
-					<a class="navigation_item">
-						DHSZ
-					</a>
-					<img src="/img/menu_hell.svg" alt="Map" height="18px" id="minimize_icon">
+					<text class="menu_text">DHSZ</text>
+					<img id="minimize_icon" src="/img/menu_hell.svg" alt="Map" height="18px">
 				</li>
 				<hr>
 				<br>
@@ -30,39 +28,39 @@
 				<li>
 					<a class="navigation_item" href="/" >
 						<img src="/img/map.svg" alt="Map" width="40px" height="20px">
-						Map
+						<text class="menu_text"> Map </text>
 					</a>
 				</li>
 				<li>
 					<a class="navigation_item" href="/alphabetic" >
 						<img src="/img/alphabetical.svg" alt="alphabetical" width="40px" height="20px">
-						Alphabetic
+						<text class="menu_text"> Alphabetic </text>
 					</a>
 				</li>
 				<li>
 					<a class="navigation_item" href="/category" >
 						<img src="img/category.svg" alt="category" width="40px" height="20px">
-						Category
+						<text class="menu_text"> Category </text>
 					</a>
 				</li>
 				<li>
 					<a class="navigation_item" href="/" >
 						<img src="/img/custom.svg" alt="custom" width="40px" height="20px">
-						Castom
+						<text class="menu_text"> Castom </text>
 					</a>
 				</li>
-				<li class="bottom" style="position: absolute; bottom: calc(5%); left: calc(8%);">
+				<li class="bottom">
 					<a  class="navigation_item" href="/account">
-						<img src="img/settings.svg" alt="settings" width="40px" height="20px">
-						Account
+						<img src="img/you.svg" alt="account" width="40px" height="20px">
+						<text class="menu_text"> Account </text>
 					</a>
 				</li>
 			</ul>	
 		</div>
-
+		<div id="content">
+		</div>
 	</div>
 </body>
-
 <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="js/alphabetic.js"></script>
+<script type="text/javascript" src="js/navigation.js"></script>
 </html>

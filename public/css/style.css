@@ -41,7 +41,7 @@ li{
 }
 
 li.bottom{
-	position: absolute; bottom: calc(5%); left: calc(8%); margin-top: none;
+	position: absolute; bottom: 2svh; left: 2svh; margin-top: none;
 }
 
 .buttom_e{
