@@ -1,6 +1,5 @@
-/* Your CSS */
 .main_left_navigation{
-	background: linear-gradient(to bottom, rgb(70, 70, 88) 0%, rgb(33,37,41) 100%);
+	background: linear-gradient(to bottom, rgb(29, 29, 45) 0%, rgb(13, 13, 38) 100%);
 	position: absolute;
 	height: calc(100%);
 	width: calc(10%);
@@ -25,6 +24,7 @@
 	height: calc(100%);
 	width: calc(90%);
 	left: calc(10%);
+	background: linear-gradient(to bottom, rgb(11, 11, 19) 0%, rgb(13, 13, 73) 100%);
 }
 
 #map{ 
@@ -41,7 +41,7 @@ li{
 }
 
 li.bottom{
-	position: absolute; bottom: 2svh; left: 2svh; margin-top: none;
+	position: absolute; bottom: 2svh; left: 2svh; padding-top: none;
 }
 
 .buttom_e{

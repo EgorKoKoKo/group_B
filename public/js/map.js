@@ -2,7 +2,7 @@ let dresden = [51.050407, 13.737262]
 let markers = new Array();
 
 // map setup
-var map = L.map('map', {attributionControl: false} ).setView(dresden, 15);
+var map = L.map('map', {attributionControl: false, popupMovable: true} ).setView(dresden, 15);
 var myAttrControl = L.control.attribution().addTo(map);
 myAttrControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a> | <a href="https://github.com/CartoDB/cartodb/">CartoDB</a>');
 
@@ -67,7 +67,8 @@ map.locate({setView: true, maxZoom: 16});
 map.on('locationfound', e => {
     //var radius = e.accuracy;
     L.marker(e.latlng).addTo(map)
-        .bindPopup("You are here!!!").setIcon(
+        .bindPopup("You are here!!!",{
+            popupmovable:false}).setIcon(
             new L.Icon({
             iconUrl: "img/you.svg",
             iconSize: [25, 41],
