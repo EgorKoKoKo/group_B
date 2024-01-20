@@ -38,11 +38,11 @@ app.get('/games', (req ,res) => {
 	res.sendFile(path.resolve("public/games.html"));
 });
 
-app.get('/games/alone', (req ,res) => {
+app.get('/alone', (req ,res) => {
 	res.sendFile(path.resolve("public/movement_tracking.html"));
 });
 
-app.get('/games/together', (req ,res) => {
+app.get('/together', (req ,res) => {
 	res.sendFile(path.resolve("public/projektor_games.html"));
 });
 
