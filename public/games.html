@@ -49,12 +49,6 @@
 						<text class="menu_text"> Games </text>
 					</a>
 				</li>
-				<li>
-					<a class="navigation_item" id="castom" href="#"  style="border: 1px solid seashell; border-radius: 15px; padding: 5px;">
-						<text class="menu_text"> Castom Search</text>
-						<img src="/img/custom.svg" alt="custom" width="40px" height="20px">
-					</a>
-				</li>
 				<li class="bottom">
 					<a  class="navigation_item" href="/account">
 						<img src="img/you.svg" alt="account" width="40px" height="20px">
@@ -63,15 +57,22 @@
 				</li>
 			</ul>	
 		</div>
-		<div id="content">
-		<div id="map"></div>
-		</div>
+        <div id="content">
+            <div id="contentForGames">
+
+                <a class="game_content" href="#" style="background-color: silver">
+                            <h1 class="games_text"> Alone </h1> <hr style="border: 2px solid black;">
+                            <img class="games_img" src="gifs/alone.gif" alt="alone cat" style="height:calc(80%);">
+                </a>
+
+                <a class="game_content" href="#"  style="background-color: rgb(254, 253, 252);">
+                            <h1 class="games_text"> Together </h1> <hr style="border: 2px solid black;">
+                            <img class="games_img" src="gifs/not_alone.gif" alt="alone cat" style="height:calc(80%);">
+                </a>
+
+            </div>
+        </div>
 	</div>
 </body>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="js/leaflet.PopupMovable.js"></script>
-<script type="text/javascript" src="js/map.js"></script>
 <script type="text/javascript" src="js/navigation.js"></script>
 </html>

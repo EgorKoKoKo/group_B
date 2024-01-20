@@ -34,6 +34,18 @@ app.get('/category', (req ,res) => {
 	res.sendFile(path.resolve("public/category.html"));
 });
 
+app.get('/games', (req ,res) => {
+	res.sendFile(path.resolve("public/games.html"));
+});
+
+app.get('/games/alone', (req ,res) => {
+	res.sendFile(path.resolve("public/games.html"));
+});
+
+app.get('/games/together', (req ,res) => {
+	res.sendFile(path.resolve("public/games.html"));
+});
+
 app.get('/account', (req ,res) => {
 	res.sendFile(path.resolve("public/account.html"));
 });

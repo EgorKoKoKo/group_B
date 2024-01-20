@@ -1,5 +1,5 @@
 .main_left_navigation{
-	background: linear-gradient(to bottom, rgb(29, 29, 45) 0%, rgb(13, 13, 38) 100%);
+	background: linear-gradient(to bottom, rgb(11, 11, 11) 0%, rgb(35, 35, 35) 100%);
 	position: absolute;
 	height: calc(100%);
 	width: calc(10%);
@@ -24,7 +24,7 @@
 	height: calc(100%);
 	width: calc(90%);
 	left: calc(10%);
-	background: linear-gradient(to bottom, rgb(11, 11, 19) 0%, rgb(13, 13, 73) 100%);
+	background: linear-gradient(to bottom, rgb(35, 35, 35) 0%, rgb(11, 11, 11) 100%);
 }
 
 #map{ 
@@ -87,4 +87,30 @@ a.buttom_about_sport{
 	vertical-align: middle;
 	display: inline-block;
 	padding: 3px 3px 3px 3px;
+}
+
+#contentForGames{
+	display: flex;
+	position: relative;
+	width: calc(100%);
+	height: calc(100%);
+}
+
+a.game_content{
+	position: relative;
+	width: calc(50%);
+	height: calc(100%);
+	border: 5px solid black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1.games_text{
+	padding-left: calc(30%);
+	color: black;
+	font-size: 100px;
+}
+
+.games_img{
+	padding-left: calc(5%);
 }

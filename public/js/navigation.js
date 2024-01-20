@@ -2,7 +2,6 @@ let menu = document.getElementById('main_left_navigation');
 let icon = document.getElementById('minimize_icon');
 let content = document.getElementById('content');
 let elements_to_hide = document.querySelectorAll('.menu_text')
-let items= document.querySelectorAll('.navigation_item');
 let isBig = true;
 
 icon.addEventListener("click", event => {
@@ -15,9 +14,6 @@ icon.addEventListener("click", event => {
         elements_to_hide.forEach(elem => {
             elem.style.display= 'none';
         });
-        items.forEach(item => {
-            item.style.paddingTop= '40px';
-        });
     } else {
         isBig= true;
         icon.style.paddingLeft= '3svh';
@@ -26,9 +22,6 @@ icon.addEventListener("click", event => {
         content.style.left = 'calc(10%)';
         elements_to_hide.forEach(elem => {
             elem.style.display= '';
-        });
-        items.forEach(item => {
-            item.style.paddingTop= '20px';
         });
     }
 });
