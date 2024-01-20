@@ -39,11 +39,11 @@ app.get('/games', (req ,res) => {
 });
 
 app.get('/games/alone', (req ,res) => {
-	res.sendFile(path.resolve("public/games.html"));
+	res.sendFile(path.resolve("public/movement_tracking.html"));
 });
 
 app.get('/games/together', (req ,res) => {
-	res.sendFile(path.resolve("public/games.html"));
+	res.sendFile(path.resolve("public/projektor_games.html"));
 });
 
 app.get('/account', (req ,res) => {
