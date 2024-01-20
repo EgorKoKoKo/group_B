@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> DHSZ </title>
+	<meta name="description" content="Group B User Interface Engeneering">
+	<meta name="author" content="FIXME">
+	<meta name="keywords" content="DHSZ v2">
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://tu-dresden.de/favicon.ico">
+	<link href="css/html5reset.css" type="text/css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"	integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+	<div>
+		<div class="main_left_navigation" id="main_left_navigation" role="navigation">
+			<ul>
+				<li class="top">
+					<text class="menu_text">DHSZ</text>
+					<img id="minimize_icon" src="/img/menu_hell.svg" alt="Map" height="18px">
+				</li>
+				<hr>
+				<br>
+
+				<li>
+					<a class="navigation_item" href="/" >
+						<img src="/img/map.svg" alt="Map" width="40px" height="20px">
+						<text class="menu_text"> Map </text>
+					</a>
+				</li>
+				<li>
+					<a class="navigation_item" href="/alphabetic" >
+						<img src="/img/alphabetical.svg" alt="alphabetical" width="40px" height="20px">
+						<text class="menu_text"> Alphabetic </text>
+					</a>
+				</li>
+				<li>
+					<a class="navigation_item" href="/category" >
+						<img src="img/category.svg" alt="category" width="40px" height="20px">
+						<text class="menu_text"> Category </text>
+					</a>
+				</li>
+				<li>
+					<a class="navigation_item" href="/games" >
+						<img src="img/games.svg" alt="games" width="40px" height="20px">
+						<text class="menu_text"> Games </text>
+					</a>
+				</li>
+				<li class="bottom">
+					<a  class="navigation_item" href="/account">
+						<img src="img/you.svg" alt="account" width="40px" height="20px">
+						<text class="menu_text"> Account </text>
+					</a>
+				</li>
+			</ul>	
+		</div>
+        <div id="content">
+        </div>
+	</div>
+</body>
+<script type="text/javascript" src="js/navigation.js"></script>
+</html>
