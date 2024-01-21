@@ -48,7 +48,7 @@ $.ajax({
     success: function setIcons(res) {
         res.forEach(function (dataitem) {
         let marker = L.marker(dataitem.coordinate).addTo(map)
-        .bindPopup("<a class='buttom_about_sport' title='read more'> "+dataitem.name + "</a><hr> Groups: <br>"+ printAllgroups(dataitem.groups), {closeOnClick: false, autoClose: false});
+        .bindPopup("<a class='buttom_about_sport' title='read more'> "+dataitem.name + "</a><hr>"+ printPhoto(dataitem.photo_of_location, dataitem.location_name) +"Groups: <br>"+ printAllgroups(dataitem.groups), {closeOnClick: false, autoClose: false});
         var newIcon = new L.Icon({
             iconUrl: dataitem.icon,
             iconSize: [30, 50],
@@ -90,4 +90,12 @@ function printAllgroups(groups) {
         "<br>" + buttom_read_more + buttom_enroll + "<br>"; 
         })
     return end_groups_text;
+}
+
+function printPhoto(photoURL, location_name){
+    if (photoURL.length === 0) {
+        return "<h2>"+location_name+'</h2>';
+    } else {
+        return "<h2>"+location_name+'</h2><img src='+ photoURL+ ' alt="photo of location" width="200px"> <hr>'
+    }
 }
