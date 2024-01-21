@@ -262,7 +262,7 @@
             "day": "Mo",
             "time": "16:40-18:10",
             "cost": "20/ 30/ 40 €"
-        },  
+        },
         {
             "group_id": 2,
             "group_name": "Grundkurs B",
@@ -289,7 +289,7 @@
             "day": "Di",
             "time": "16:40-18:10",
             "cost": "20/ 30/ 40 €"
-        },  
+        },
         {
             "group_id": 2,
             "group_name": "Beginners",
@@ -507,5 +507,224 @@
         "location_name": "Waldbaden ",
         "adress":"Großer Garten",
         "photo_of_location": ""
-    }
+    },
+    {
+        "id": 109,
+        "name": "Billiard",
+        "coordinate": [51.071552800941994, 13.698934081485044],
+        "groups": [
+            {
+                "group_id": 1,
+                "group_name": "Poolbillard Anfänger:innen",
+                "tranier_name": "Roland Holz",
+                "day": "Di",
+                "time": "18:30-20:00",
+                "cost": "30/ 50/ 80€"
+            },
+            {
+                "group_id": 2,
+                "group_name": "Poolbillard Aufbau",
+                "tranier_name": "Karl-Maria Seyb",
+                "day": "Do",
+                "time": "19:00-20:30",
+                "cost": "30/ 50/ 80€"
+            }
+        ],
+        "icon": "img/billiard.svg",
+        "location_name": "Snooker und Billard Club Snoobi",
+        "adress": "Rethelstraße 26",
+        "photo_of_location": ""
+    },  {
+    "id": 25,
+    "name": "Disco Fox",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Beginner",
+            "tranier_name": "Sandro Zinke, Tina Fuchs",
+            "day": "Fr",
+            "time": "17:00-18:30",
+            "cost": "35/ 60/ 100€"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Mittelstufe/Fortgeschrittene",
+            "tranier_name": "Sandro Zinke, Tina Fuchs",
+            "day": "Fr",
+            "time": "18:00-19:30",
+            "cost": "35/ 60/ 100€"
+        }
+    ],
+    "adress": "Trachenberger Platz 3, über dem NETTO",
+    "coordinate": [51.08446,13.72839],
+    "location_name": "Tanzstudio Elementio (ehem. Sandana)",
+    "icon": "img/disco.svg",
+    "photo_of_location": ""
+},{
+    "id": 30,
+    "name": "skating",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Eislauf Outdoor",
+            "tranier_name": "Steve Müller, Dominik Moser",
+            "day": "Di",
+            "time": "22:00-23:00",
+            "cost": "20/ 30/ 40€"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Eislauf Outdoor",
+            "tranier_name": "Michael Langrock, Moritz Trübsbach",
+            "day": "Do",
+            "time": "22:00-23:00",
+            "cost": "20/ 30/ 40€"
+        }
+    ],
+    "adress": "Pieschener Alee 1",
+    "coordinate": [51.06191,13.72318],
+    "location_name": "Eisschnellaufbahn Sportzentrum Ostragehege",
+    "icon": "img/skating.svg",
+    "photo_of_location": ""
+},{
+    "id": 40,
+    "name": "Flamenco",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Anfänger:innen",
+            "tranier_name": "Migiwa Shimizu-Doschew",
+            "day": "Do",
+            "time": "20:15-21:15",
+            "cost": "25/ 40/ 60€"
+        }
+    ],
+    "adress": "Eisenbahnstraße 1",
+    "coordinate": [51.06565,13.73781],
+    "location_name": "Tanzschule \"El Patio Flamenco\"",
+    "icon": "img/flamenco.svg",
+    "photo_of_location": ""
+},{
+    "id": 64,
+    "name": "Kendo",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Anfänger:innen & Fortgeschrittene",
+            "tranier_name": "Stephan Hernschier, Patrick Koko",
+            "day": "Do",
+            "time": "18:30-20:00",
+            "cost": "20/ 30/ 40€"
+        }
+    ],
+    "adress": "Teplitzer Straße 17",
+    "coordinate": [51.03135,13.75182],
+    "location_name": "August-Bebel-Str. Sporthalle",
+    "icon": "img/kendo.svg",
+    "photo_of_location": ""
+},{
+    "id": 68,
+    "name": "Klettern in der Halle",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "KL-Training",
+            "tranier_name": "Frank Hilbert, Armin Siegel",
+            "day": "Mo",
+            "time": "18:30-20:30",
+            "cost": "Free"
+        }
+    ],
+    "adress": "Nöthnitzer Str. 60",
+    "coordinate": [51.02427,13.72423],
+    "location_name": "Nöthnitzer Str. Halle II/4",
+    "icon": "img/climbing.svg",
+    "photo_of_location": ""
+},{
+    "id": 85,
+    "name": "Meditation",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Atemmeditation & Yoga",
+            "tranier_name": "Michael Marxen",
+            "day": "Mi",
+            "time": "11:10-12:40",
+            "cost": "40/ 70/ 120€"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Konzentration, Meditation und Selbstwahrnehmung",
+            "tranier_name": "Katja Anderssohn",
+            "day": "Do",
+            "time": "09:20-10:50",
+            "cost": "40/ 70/ 120€"
+        }
+    ],
+    "adress": "Chemnitzer Str. 46b",
+    "coordinate": [51.03409,13.71045],
+    "location_name": "Chemnitzer Str. 46b, Gesundheitssport",
+    "icon": "img/meditation.svg",
+    "photo_of_location": ""
+},{
+    "id": 101,
+    "name": "Reiten & Entspannung mit Pferden",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Mit Pferden wandern, Fitness & Reiten",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "Sa",
+            "time": "",
+            "cost": "120/ 150/ 180€"
+        },
+        {
+            "group_id": 2,
+            "group_name": "Langkurs",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "",
+            "time": "",
+            "cost": "240/ 280/ 320€"
+        },
+        {
+            "group_id": 3,
+            "group_name": "Entspannung mit Pferden",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "",
+            "time": "",
+            "cost": "90/ 120/ 150€"
+        },
+        {
+            "group_id": 4,
+            "group_name": "Mit Pferden wandern, Fitness & Reiten",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "Sa",
+            "time": "",
+            "cost": "120/ 150/ 180€"
+        }
+    ],
+    "adress": "Reiten in Dresden",
+    "coordinate": [51.021101852576976, 13.796997910317904],
+    "location_name": "Reiten in Dresden",
+    "icon": "img/reiten.svg",
+    "photo_of_location": ""
+},{
+    "id": 106,
+    "name": "Rugby",
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Anfänger:innen & Fortgeschrittene",
+            "tranier_name": "Micha J. Englisch, Jonas Stöber",
+            "day": "Do",
+            "time": "16:40-18:10",
+            "cost": "40/ 60/ 80€"
+        }
+    ],
+    "adress": "August-Bebel-Str. 18a",
+    "coordinate": [51.0304,13.7525],
+    "location_name": "August-Bebel-Str. Sportplatz",
+    "icon": "img/rugby.svg",
+    "photo_of_location": ""
+}
 ]
