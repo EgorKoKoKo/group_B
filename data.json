@@ -2,13 +2,13 @@
 {
     "id" : 1,
     "name": "Football",
-    "coordinate" : [51.030545,13.752072],
+    "coordinate" : [51.030525,13.751939],
     "groups" : [
         {
             "group_id": 1,
             "group_name": "Beginners",
             "tranier_name" : "Dr. Uladzimir Kalkouski",
-            "day": "FR",
+            "day": "Fr",
             "time": "17:00-19:00",
             "cost": "40/ 70/ 120 €"
         },
@@ -16,7 +16,7 @@
             "group_id": 2,
             "group_name": "Advanced",
             "tranier_name" : "Dr. Uladzimir Kalkouski",
-            "day": "FR",
+            "day": "Fr",
             "time": "19:00-21:00",
             "cost": "40/ 70/ 120 €"
         }
@@ -24,7 +24,7 @@
     "icon": "img/football.svg",
     "location_name": "August-Bebel-Str. Sportplatz Feld 1",
     "adress":"August-Bebel-Str. 18a 01219 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/August-Bebel-Str_Sportplatz_Feld_1.webp"
 },
 {
     "id" : 2,
@@ -43,7 +43,7 @@
     "icon": "img/footsal.svg",
     "location_name": "August-Bebel-Str. Sporthalle",
     "adress":"Teplitzer Straße 17 01219 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/August-Bebel-StrSporthalle.webp"
 },
 {
     "id" : 3,
@@ -62,7 +62,7 @@
     "icon": "img/chess.svg",
     "location_name": "Tennisplätze",
     "adress":"Andreas-Schubert-Str. 51 01069 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Tennisplätze.webp"
 },
 {
     "id" : 4,
@@ -81,7 +81,7 @@
     "icon": "img/basketball.svg",
     "location_name": "Nöthnitzer Str. Halle II/3",
     "adress":"Nöthnitzer Str. 60 01187 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/NöthnitzerStrHalleII3.webp"
 },
 {
     "id" : 5,
@@ -100,7 +100,7 @@
     "icon": "img/americanfootball.svg",
     "location_name": "August-Bebel-Str. Sportplatz Feld 2",
     "adress":"August-Bebel-Str. 18a 01219 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/August-Bebel-Str_Sportplatz_Feld_2.webp"
 },
 {
     "id" : 6,
@@ -141,9 +141,9 @@
         }
     ],
     "icon": "img/swim.svg",
-    "location_name": "",
-    "adress":"",
-    "photo_of_location": ""
+    "location_name": "Neue Schwimmhalle 50-m-Bahn",
+    "adress":"Freiberger Platz 1a 01067 Dresden",
+    "photo_of_location": "photos/Neue_Schwimmhalle.jpg"
 },
 {
     "id" : 7,
@@ -213,7 +213,7 @@
     "icon": "img/riding.svg",
     "location_name": "Moritzburg",
     "adress":"Moritzburg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Moritzburg.jpg"
 },
 {
     "id" : 9,
@@ -248,7 +248,7 @@
     "icon": "img/tennis.svg",
     "location_name": "Sportpark Dresden",
     "adress":"Südhöhe 28 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Sportpark_Dresden.jpeg"
 },
 {
     "id" : 10,
@@ -329,7 +329,7 @@
     "icon": "img/tennis.svg",
     "location_name": "Tennishalle Pappritz",
     "adress":"Fernsehturmstraße 3 01328 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Tennishalle_Pappritz.JPG"
 },
     {
         "id" : 100,
@@ -365,9 +365,9 @@
             }
         ],
         "icon": "img/Taekwondo.svg",
-        "location_name": "WEB",
+        "location_name": "Weberplatz",
         "adress":"Weberplatz 5 01217 Dresden",
-        "photo_of_location": ""
+        "photo_of_location": "photos/WEB_gesamt.jpg"
     },
 
 
@@ -473,7 +473,7 @@
 },    {
     "id" : 107,
     "name": "Frisbee",
-    "coordinate" : [51.03045582570917, 13.752448994973163],
+    "coordinate" : [51.030424,13.752943],
     "groups" : [
         {
             "group_id": 1,
@@ -487,7 +487,7 @@
     "icon": "img/frisbee.svg",
     "location_name": "Sportplatz ",
     "adress":"August-Bebel-Str. 18a 01219 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/August-Bebel-Str_Sportplatz_Feld_2.webp"
 },
     {
         "id" : 108,
@@ -504,9 +504,9 @@
             }
         ],
         "icon": "img/waldbaden.svg",
-        "location_name": "Waldbaden ",
+        "location_name": "Großer Garten",
         "adress":"Großer Garten",
-        "photo_of_location": ""
+        "photo_of_location": "photos/Großer_Garten.jpg"
     },
     {
         "id": 109,
