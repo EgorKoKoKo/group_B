@@ -330,5 +330,182 @@
     "location_name": "Tennishalle Pappritz",
     "adress":"Fernsehturmstraße 3 01328 Dresden",
     "photo_of_location": ""
-}
+},
+    {
+        "id" : 100,
+        "name": "yoga",
+        "coordinate" : [51.034583198016236, 13.710541990731882],
+        "groups" : [
+            {
+                "group_id": 1,
+                "group_name": "Beginners",
+                "tranier_name" : "Jindriska Martinkova",
+                "day": "Mo",
+                "time": "07:30-09:00",
+                "cost": "40/ 70/ 120 €"
+            }
+        ],
+        "icon": "img/yoga.svg",
+        "location_name": "Gesundheitssport",
+        "adress":"Chemnitzer Str. 46b 01187 Dresden",
+        "photo_of_location": ""
+    },
+    {
+        "id" : 102,
+        "name": "Taekwondo",
+        "coordinate" : [51.03065601491546, 13.749680796827592],
+        "groups" : [
+            {
+                "group_id": 1,
+                "group_name": "Beginners & Advanced",
+                "tranier_name" : "Tim Kühne, Karsten Meyer",
+                "day": "Di",
+                "time": "19:50-21:20",
+                "cost": "20/ 30/ 40 €"
+            }
+        ],
+        "icon": "img/Taekwondo.svg",
+        "location_name": "WEB",
+        "adress":"Weberplatz 5 01217 Dresden",
+        "photo_of_location": ""
+    },
+
+
+
+    {
+        "id" : 103,
+        "name": "taijiquan",
+        "coordinate" : [51.055097785309286, 13.777733615374121],
+        "groups" : [
+            {
+                "group_id": 1,
+                "group_name": "Beginners",
+                "tranier_name" : "Uwe Keitel",
+                "day": "Mo",
+                "time": "18:00-19:30",
+                "cost": "25/ 40/ 60 €"
+            }
+        ],
+        "icon": "img/taijiquan.svg",
+        "location_name": "Sporthalle Haus 25 Universitätsklinikum",
+        "adress":"Fetscherstr. 01307 Dresden",
+        "photo_of_location": ""
+    },
+    {
+        "id" : 104,
+        "name": "squash",
+        "coordinate" : [51.05974674913751, 13.725658878399477],
+        "groups" : [
+            {
+                "group_id": 1,
+                "group_name": "Beginners",
+                "tranier_name" : "Juan Ramiro Groh Fili",
+                "day": "Mi",
+                "time": "11:30-13:00",
+                "cost": "40/ 70/ 120 €"
+            },
+            {
+                "group_id": 2,
+                "group_name": "Beginners",
+                "tranier_name" : "Juan Ramiro Groh Fili",
+                "day": "Mi",
+                "time": "13:00-14:30",
+                "cost": "40/ 70/ 120 €"
+            },
+            {
+                "group_id": 3,
+                "group_name": "Advanced",
+                "tranier_name" : "David Bodesheim",
+                "day": "Fr",
+                "time": "08:00-09:30",
+                "cost": "40/ 70/ 120 €"
+            }
+        ],
+        "icon": "img/squash.svg",
+        "location_name": "BallsportARENA",
+        "adress":"Weißeritzstr. 4 01067 Dresden",
+        "photo_of_location": ""
+    },
+    {
+        "id" : 105,
+        "name": "Salsa",
+        "coordinate" : [51.0830760469683, 13.726466041013103],
+        "groups" : [
+            {
+                "group_id": 1,
+                "group_name": "Beginners",
+                "tranier_name" : "Sandro Zinke, Ilka Zenker",
+                "day": "Mo",
+                "time": "20:00-21:00",
+                "cost": "35/ 60/ 100 €"
+            },  {
+                "group_id": 2,
+                "group_name": "Advanced",
+                "tranier_name" : "Sandro Zinke, Ilka Zenker",
+                "day": "Mo",
+                "time": "21:00-22:00",
+                "cost": "35/ 60/ 100 €"
+            }
+        ],
+        "icon": "img/salsa.svg",
+        "location_name": "Tanzstudio Elementio",
+        "adress":"Trachenberger Platz 3, über dem NETTO 01129 Dresden",
+        "photo_of_location": ""
+    },
+    {
+    "id" : 106,
+    "name": "bike",
+    "coordinate" : [51.03558881883542, 13.710171867991626],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "All",
+            "tranier_name" : "Konstantin Weise, Kolja Wienigk",
+            "day": "Mo",
+            "time": "19:00-20:30",
+            "cost": "25/ 40/ 60 €"
+        }
+    ],
+    "icon": "img/bike.svg",
+    "location_name": "Radsportstützpunkt ",
+    "adress":"Bamberger Str. 1 01187 Dresden",
+    "photo_of_location": ""
+},    {
+    "id" : 107,
+    "name": "Frisbee",
+    "coordinate" : [51.03045582570917, 13.752448994973163],
+    "groups" : [
+        {
+            "group_id": 1,
+            "group_name": "All",
+            "tranier_name" : "John Böhm",
+            "day": "Mi",
+            "time": "16:40-18:10",
+            "cost": "20/ 30/ 40 €"
+        }
+    ],
+    "icon": "img/frisbee.svg",
+    "location_name": "Sportplatz ",
+    "adress":"August-Bebel-Str. 18a 01219 Dresden",
+    "photo_of_location": ""
+},
+    {
+        "id" : 108,
+        "name": "Waldbaden",
+        "coordinate" : [51.03806996124225, 13.763284446774433],
+        "groups" : [
+            {
+                "group_id": 1,
+                "group_name": "All",
+                "tranier_name" : "Karola. Hartmann",
+                "day": "no info",
+                "time": "",
+                "cost": ""
+            }
+        ],
+        "icon": "img/waldbaden.svg",
+        "location_name": "Waldbaden ",
+        "adress":"Großer Garten",
+        "photo_of_location": ""
+    }
 ]
