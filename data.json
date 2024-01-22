@@ -67,7 +67,7 @@
 {
     "id" : 4,
     "name": "Basketball",
-    "coordinate" : [51.024351,13.724257],
+    "coordinate" : [51.024530,13.724268],
     "groups" : [
         {
             "group_id": 1,
@@ -184,30 +184,38 @@
     "id" : 8,
     "name": "Riding",
     "coordinate" : [51.155285,13.682517],
-    "groups" : [
+    "groups": [
         {
             "group_id": 1,
-            "group_name": "Shortkurs",
-            "tranier_name" : "Yvette Schwertfeger",
-            "day": "optional",
-            "time": "optional",
-            "cost": "120/ 150/ 180 €"
+            "group_name": "Mit Pferden wandern, Fitness & Reiten",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "Sa",
+            "time": "",
+            "cost": "120/ 150/ 180€"
         },
         {
             "group_id": 2,
-            "group_name": "Hiking, fitness & horse riding",
-            "tranier_name" : "Yvette Schwertfeger",
-            "day": "Sa",
-            "time": "optional :: 2 hours",
-            "cost": "120/ 150/ 180 €"
+            "group_name": "Langkurs",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "",
+            "time": "",
+            "cost": "240/ 280/ 320€"
         },
         {
             "group_id": 3,
-            "group_name": "Longkurs",
-            "tranier_name" : "Yvette Schwertfeger",
+            "group_name": "Entspannung mit Pferden",
+            "tranier_name": "Yvette Schwertfeger",
+            "day": "",
+            "time": "",
+            "cost": "90/ 120/ 150€"
+        },
+        {
+            "group_id": 4,
+            "group_name": "Mit Pferden wandern, Fitness & Reiten",
+            "tranier_name": "Yvette Schwertfeger",
             "day": "Sa",
-            "time": "optional",
-            "cost": "120/ 150/ 180 €"
+            "time": "",
+            "cost": "120/ 150/ 180€"
         }
     ],
     "icon": "img/riding.svg",
@@ -253,7 +261,7 @@
 {
     "id" : 10,
     "name": "Volleyball",
-    "coordinate" : [51.024627,13.724284],
+    "coordinate" : [51.024749,13.724268],
     "groups" : [
         {
             "group_id": 1,
@@ -374,7 +382,7 @@
 
     {
         "id" : 103,
-        "name": "taijiquan",
+        "name": "Taijiquan",
         "coordinate" : [51.055097785309286, 13.777733615374121],
         "groups" : [
             {
@@ -393,7 +401,7 @@
     },
     {
         "id" : 104,
-        "name": "squash",
+        "name": "Squash",
         "coordinate" : [51.05974674913751, 13.725658878399477],
         "groups" : [
             {
@@ -454,7 +462,7 @@
     },
     {
     "id" : 106,
-    "name": "bike",
+    "name": "Bike",
     "coordinate" : [51.03558881883542, 13.710171867991626],
     "groups" : [
         {
@@ -562,7 +570,7 @@
     "photo_of_location": ""
 },{
     "id": 30,
-    "name": "skating",
+    "name": "Skating",
     "groups": [
         {
             "group_id": 1,
@@ -618,7 +626,7 @@
         }
     ],
     "adress": "Teplitzer Straße 17",
-    "coordinate": [51.03135,13.75182],
+    "coordinate": [51.031335,13.752117],
     "location_name": "August-Bebel-Str. Sporthalle",
     "icon": "img/kendo.svg",
     "photo_of_location": ""
@@ -636,7 +644,7 @@
         }
     ],
     "adress": "Nöthnitzer Str. 60",
-    "coordinate": [51.02427,13.72423],
+    "coordinate": [51.024277,13.724247],
     "location_name": "Nöthnitzer Str. Halle II/4",
     "icon": "img/climbing.svg",
     "photo_of_location": ""
@@ -666,49 +674,8 @@
     "location_name": "Chemnitzer Str. 46b, Gesundheitssport",
     "icon": "img/meditation.svg",
     "photo_of_location": ""
-},{
-    "id": 101,
-    "name": "Reiten & Entspannung mit Pferden",
-    "groups": [
-        {
-            "group_id": 1,
-            "group_name": "Mit Pferden wandern, Fitness & Reiten",
-            "tranier_name": "Yvette Schwertfeger",
-            "day": "Sa",
-            "time": "",
-            "cost": "120/ 150/ 180€"
-        },
-        {
-            "group_id": 2,
-            "group_name": "Langkurs",
-            "tranier_name": "Yvette Schwertfeger",
-            "day": "",
-            "time": "",
-            "cost": "240/ 280/ 320€"
-        },
-        {
-            "group_id": 3,
-            "group_name": "Entspannung mit Pferden",
-            "tranier_name": "Yvette Schwertfeger",
-            "day": "",
-            "time": "",
-            "cost": "90/ 120/ 150€"
-        },
-        {
-            "group_id": 4,
-            "group_name": "Mit Pferden wandern, Fitness & Reiten",
-            "tranier_name": "Yvette Schwertfeger",
-            "day": "Sa",
-            "time": "",
-            "cost": "120/ 150/ 180€"
-        }
-    ],
-    "adress": "Reiten in Dresden",
-    "coordinate": [51.021101852576976, 13.796997910317904],
-    "location_name": "Reiten in Dresden",
-    "icon": "img/reiten.svg",
-    "photo_of_location": ""
-},{
+},
+{
     "id": 106,
     "name": "Rugby",
     "groups": [
@@ -722,7 +689,7 @@
         }
     ],
     "adress": "August-Bebel-Str. 18a",
-    "coordinate": [51.0304,13.7525],
+    "coordinate": [51.030056,13.753088],
     "location_name": "August-Bebel-Str. Sportplatz",
     "icon": "img/rugby.svg",
     "photo_of_location": ""
