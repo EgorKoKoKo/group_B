@@ -2,8 +2,9 @@ let dresden = [51.050407, 13.737262]
 let markers = new Array();
 
 // map setup
-var map = L.map('map', {attributionControl: false, popupMovable: true} ).setView(dresden, 15);
+var map = L.map('map', {attributionControl: false, popupMovable: true, zoomControl: false} ).setView(dresden, 15);
 var myAttrControl = L.control.attribution().addTo(map);
+
 myAttrControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a> | <a href="https://github.com/CartoDB/cartodb/">CartoDB</a>');
 
 // create layers
@@ -13,7 +14,7 @@ var normal = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/
 subdomains: 'abcd',
 	maxZoom: 19,
     attribution: attribution
-});
+}).addTo(map);
 
 var dark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 subdomains: 'abcd',
@@ -24,7 +25,7 @@ subdomains: 'abcd',
 var white = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 19,
     attribution: attribution
-}).addTo(map);
+});
 
 var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
    maxZoom: 19,
@@ -40,6 +41,8 @@ var baseMaps = {
 };
 
 L.control.layers(baseMaps).addTo(map);
+L.control.zoom({position: 'bottomright'}).addTo(map);
+var markersLayer = new L.LayerGroup();	//layer contain searched elements
 
 //get data from server
 $.ajax({
@@ -61,6 +64,18 @@ $.ajax({
         });
     }   
 });
+
+
+//search part
+map.addLayer(markersLayer);
+var controlSearch = new L.Control.Search({
+    position:'topleft',		
+    layer: markersLayer,
+    initial: false,
+    zoom: 12,
+    marker: false,
+});
+map.addControl(controlSearch);
 
 //asking location
 map.locate({setView: true, maxZoom: 16});
