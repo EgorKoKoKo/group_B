@@ -96,6 +96,6 @@ function printPhoto(photoURL, location_name){
     if (photoURL.length === 0) {
         return "<h2>"+location_name+'</h2>';
     } else {
-        return "<h2>"+location_name+'</h2><img src='+ photoURL+ ' alt="photo of location" width="200px"> <hr>'
+        return "<h2>"+location_name+'</h2><img loading="lazy" src='+ photoURL+ ' alt="photo of location" width="200px"> <hr>'
     }
 }
