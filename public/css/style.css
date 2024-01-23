@@ -172,7 +172,7 @@ dt{
 	position: fixed;
 	bottom: calc(2%);
 	left: calc(11%);
-	background-color: rgb(29,29,29);
+	background-color: rgba(29,29,29, 0.5);
 	border: 3px solid snow; 
 	border-radius: 25px; 
 	text-align: center;
