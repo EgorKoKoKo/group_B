@@ -51,6 +51,9 @@ var controlSearch = new L.Control.Search({
     layer: markersLayer,
     initial: true,
     zoom: 16,
+    marker: false
+}).on('search:locationfound', function(e) {
+		e.layer.openPopup();
 });
 map.addControl(controlSearch);
 

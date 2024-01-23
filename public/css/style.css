@@ -170,6 +170,7 @@ dt{
 #custom{
 	z-index: 9999;
 	position: fixed;
+	cursor: pointer;
 	bottom: calc(2%);
 	left: calc(11%);
 	background-color: rgba(29,29,29, 0.5);
@@ -177,4 +178,21 @@ dt{
 	border-radius: 25px; 
 	text-align: center;
 	padding: 10px;
+}
+
+#customContainer{
+	display: none;
+	z-index: 9999;
+	position: fixed;
+	bottom: calc(25%);
+	left: calc(11%);
+	color: whitesmoke;
+	background-color: rgba(29,29,29, 0.85);
+	padding: 10px;
+	border: 2px solid whitesmoke;
+	border-radius: 15px;
+}
+
+#customContainer input{
+	margin-bottom: 5px;
 }
