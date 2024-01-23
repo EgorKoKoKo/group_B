@@ -44,13 +44,23 @@ L.control.layers(baseMaps).addTo(map);
 L.control.zoom({position: 'bottomright'}).addTo(map);
 var markersLayer = new L.LayerGroup();	//layer contain searched elements
 
+//search button part
+map.addLayer(markersLayer);
+var controlSearch = new L.Control.Search({
+    position:'topleft',		
+    layer: markersLayer,
+    initial: true,
+    zoom: 16,
+});
+map.addControl(controlSearch);
+
 //get data from server
 $.ajax({
     url: 'http://localhost:3000/data',
     contentType: 'application/json',
     success: function setIcons(res) {
         res.forEach(function (dataitem) {
-        let marker = L.marker(dataitem.coordinate).addTo(map)
+        let marker = L.marker(dataitem.coordinate, {title: dataitem.name}).addTo(map)
         .bindPopup("<a class='buttom_about_sport' title='read more'> "+dataitem.name + "</a><hr>"+ printPhoto(dataitem.photo_of_location, dataitem.location_name) +"Groups: <br>"+ printAllgroups(dataitem.groups), {closeOnClick: false, autoClose: false});
         var newIcon = new L.Icon({
             iconUrl: dataitem.icon,
@@ -59,23 +69,13 @@ $.ajax({
             popupAnchor: [1, -34],
             shadowSize: [41, 41]
         });
+        //marker.options.popupText = marker._popup._content;
         marker.setIcon(newIcon);
         markers.push(marker);
+        markersLayer.addLayer(marker);
         });
     }   
 });
-
-
-//search part
-map.addLayer(markersLayer);
-var controlSearch = new L.Control.Search({
-    position:'topleft',		
-    layer: markersLayer,
-    initial: false,
-    zoom: 12,
-    marker: false,
-});
-map.addControl(controlSearch);
 
 //asking location
 map.locate({setView: true, maxZoom: 16});
