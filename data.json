@@ -176,9 +176,9 @@
         }
     ],
     "icon": "img/badminton.svg",
-    "location_name": "Neue Schwimmhalle 50-m-Bahn",
-    "adress":"Freiberger Platz 1a 01067 Dresden",
-    "photo_of_location": ""
+    "location_name": "Nöthnitzer Str. Halle II/1",
+    "adress":"Nöthnitzer Str. 60 01187 Dresden",
+    "photo_of_location": "photos/badminton.jpeg"
 },
 {
     "id" : 8,
@@ -283,7 +283,7 @@
     "icon": "img/volleyball.svg",
     "location_name": "Nöthnitzer Str. Halle II/1, II/2, II/3",
     "adress":"Nöthnitzer Str. 60 01187 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/NöthnitzerStr.jpg"
 },
 {
     "id" : 11,
@@ -310,7 +310,7 @@
     "icon": "img/table_tennis.svg",
     "location_name": "Nöthnitzer Str. Halle I/2",
     "adress":"Nöthnitzer Str. 60 01187 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/NöthnitzerTische.jpg"
 },
 {
     "id" : 12,
@@ -341,7 +341,7 @@
 },
     {
         "id" : 100,
-        "name": "yoga",
+        "name": "Yoga",
         "coordinate" : [51.034583198016236, 13.710541990731882],
         "groups" : [
             {
@@ -356,7 +356,7 @@
         "icon": "img/yoga.svg",
         "location_name": "Gesundheitssport",
         "adress":"Chemnitzer Str. 46b 01187 Dresden",
-        "photo_of_location": ""
+        "photo_of_location": "photos/d720c56b-2639-4050-9408-55fab20e9ffe.jpeg"
     },
     {
         "id" : 102,
@@ -377,9 +377,6 @@
         "adress":"Weberplatz 5 01217 Dresden",
         "photo_of_location": "photos/WEB_gesamt.jpg"
     },
-
-
-
     {
         "id" : 103,
         "name": "Taijiquan",
@@ -397,7 +394,7 @@
         "icon": "img/taijiquan.svg",
         "location_name": "Sporthalle Haus 25 Universitätsklinikum",
         "adress":"Fetscherstr. 01307 Dresden",
-        "photo_of_location": ""
+        "photo_of_location": "photos/SporthalleHaus25.jpg"
     },
     {
         "id" : 104,
@@ -432,7 +429,7 @@
         "icon": "img/squash.svg",
         "location_name": "BallsportARENA",
         "adress":"Weißeritzstr. 4 01067 Dresden",
-        "photo_of_location": ""
+        "photo_of_location": "photos/Badmintonfelder_72dpi.jpg"
     },
     {
         "id" : 105,
@@ -458,7 +455,7 @@
         "icon": "img/salsa.svg",
         "location_name": "Tanzstudio Elementio",
         "adress":"Trachenberger Platz 3, über dem NETTO 01129 Dresden",
-        "photo_of_location": ""
+        "photo_of_location": "photos/Tanzstudio Elementio.png"
     },
     {
     "id" : 106,
@@ -475,9 +472,9 @@
         }
     ],
     "icon": "img/bike.svg",
-    "location_name": "Radsportstützpunkt ",
+    "location_name": "Radsportstützpunkt",
     "adress":"Bamberger Str. 1 01187 Dresden",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Radsportstützpunkt.jpg"
 },    {
     "id" : 107,
     "name": "Frisbee",
@@ -541,7 +538,7 @@
         "icon": "img/billiard.svg",
         "location_name": "Snooker und Billard Club Snoobi",
         "adress": "Rethelstraße 26",
-        "photo_of_location": ""
+        "photo_of_location": "photos/snoobi.jpg"
     },  {
     "id": 25,
     "name": "Disco Fox",
@@ -567,7 +564,7 @@
     "coordinate": [51.08446,13.72839],
     "location_name": "Tanzstudio Elementio (ehem. Sandana)",
     "icon": "img/disco.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Sandana.jpg"
 },{
     "id": 30,
     "name": "Skating",
@@ -593,7 +590,7 @@
     "coordinate": [51.06191,13.72318],
     "location_name": "Eisschnellaufbahn Sportzentrum Ostragehege",
     "icon": "img/skating.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/Eisschnellaufbahn.jpg"
 },{
     "id": 40,
     "name": "Flamenco",
@@ -609,9 +606,9 @@
     ],
     "adress": "Eisenbahnstraße 1",
     "coordinate": [51.06565,13.73781],
-    "location_name": "Tanzschule \"El Patio Flamenco\"",
+    "location_name": "Tanzschule El Patio Flamenco",
     "icon": "img/flamenco.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/2023-09-28.png"
 },{
     "id": 64,
     "name": "Kendo",
@@ -629,7 +626,7 @@
     "coordinate": [51.031335,13.752117],
     "location_name": "August-Bebel-Str. Sporthalle",
     "icon": "img/kendo.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/August-Bebel-Str.jpg"
 },{
     "id": 68,
     "name": "Klettern in der Halle",
@@ -647,7 +644,7 @@
     "coordinate": [51.024277,13.724247],
     "location_name": "Nöthnitzer Str. Halle II/4",
     "icon": "img/climbing.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/kletterhalle-gravity-boulderhalle-826.jpg"
 },{
     "id": 85,
     "name": "Meditation",
@@ -673,7 +670,7 @@
     "coordinate": [51.03409,13.71045],
     "location_name": "Chemnitzer Str. 46b, Gesundheitssport",
     "icon": "img/meditation.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/d720c56b-2639-4050-9408-55fab20e9ffe.jpeg"
 },
 {
     "id": 106,
@@ -692,6 +689,6 @@
     "coordinate": [51.030056,13.753088],
     "location_name": "August-Bebel-Str. Sportplatz",
     "icon": "img/rugby.svg",
-    "photo_of_location": ""
+    "photo_of_location": "photos/5dce22a6d6e84b3005df89ad04f0e3e7.png"
 }
 ]

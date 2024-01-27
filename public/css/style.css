@@ -1,3 +1,7 @@
+body{
+	background-color: rgb(11, 11, 11);
+}
+
 .main_left_navigation{
 	position: fixed;
 	background: linear-gradient(to bottom, rgb(11, 11, 11) 0%, rgb(35, 35, 35) 100%);
@@ -44,12 +48,16 @@ li{
 	font-size: 16px;
 }
 
+li.top{
+	padding-top: 30px;
+}
+
+
 li.bottom{
 	position: absolute; bottom: 2svh; left: 2svh; padding-top: none;
 }
 
 .buttom_e{
-	color: black;
 	background: #66cc33;
 	cursor: pointer;
 	font: 99% sans-serif;
@@ -62,10 +70,11 @@ li.bottom{
 	padding: .1em;
 	margin: 0.5em 0 0;
 	text-decoration: none;
+	font-size: larger;
+	color: black;
 }
 
 .buttom_rm{
-	color: black;
 	background:#54c0ff ;
 	cursor: pointer;
 	font: 99% sans-serif;
@@ -78,6 +87,8 @@ li.bottom{
 	padding: .1em;
 	margin: 0.5em 0 0;
 	text-decoration: none;
+	font-size: larger;
+	color: black;
 }
 
 a.buttom_about_sport{
@@ -195,4 +206,87 @@ dt{
 
 #customContainer input{
 	margin-bottom: 5px;
+}
+
+.telegram-button{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    background-color: #0088cc;
+    border-radius: 20px;
+    padding: 3px 6px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.telegram-button:hover{
+    background-color: #007dbb;
+}
+
+.telegram-button:active{
+    background-color: #026698;
+}
+
+.whatsapp-button{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    background-color: #00cc33;
+    border-radius: 20px;
+    padding: 3px 6px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.whatsapp-button:hover{
+    background-color: #15973e;
+}
+
+.whatsapp-button:active{
+    background-color: #0c783f;
+}
+
+#group{
+	padding-left: calc(4%);
+	color: azure;
+}
+
+.sport_name{
+	padding-top: calc(2%);
+	padding-bottom: calc(2%);
+	font-size: 35px;
+}
+
+.group_name{
+	font-size: 25px;
+}
+
+.tranier_name{
+	font-size: 30px;
+	padding-top: calc(2%);
+}
+
+.group_info{
+	padding-top: calc(1%);
+	font-size: 20px;
+}
+
+.adress_info{
+	font-size: 20px;
 }

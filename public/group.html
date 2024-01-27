@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> DHSZ </title>
+	<meta name="description" content="Group B User Interface Engeneering">
+	<meta name="author" content="FIXME">
+	<meta name="keywords" content="DHSZ v2">
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://tu-dresden.de/favicon.ico">
+	<link href="../css/html5reset.css" type="text/css" rel="stylesheet">
+	<link href="../css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<div class="main_left_navigation" id="main_left_navigation" role="navigation">
+			<ul>
+				<li class="top">
+					<text class="menu_text">DHSZ</text>
+					<img id="minimize_icon" src="../img/menu_hell.svg" alt="Map" height="18px">
+				</li>
+				<hr>
+				<br>
+
+				<li>
+					<a class="navigation_item" href="/" >
+						<img src="../img/map.svg" alt="Map" width="40px" height="20px">
+						<text class="menu_text"> Map </text>
+					</a>
+				</li>
+				<li>
+					<a class="navigation_item" href="/alphabetic" >
+						<img src="../img/alphabetical.svg" alt="alphabetical" width="40px" height="20px">
+						<text class="menu_text"> Alphabetic </text>
+					</a>
+				</li>
+				<li>
+					<a class="navigation_item" href="/category" >
+						<img src="../img/category.svg" alt="category" width="40px" height="20px">
+						<text class="menu_text"> Category </text>
+					</a>
+				</li>
+				<li>
+					<a class="navigation_item" href="/games" >
+						<img src="../img/games.svg" alt="games" width="40px" height="20px">
+						<text class="menu_text"> Games </text>
+					</a>
+				</li>
+				<li class="bottom">
+					<a  class="navigation_item" href="/account">
+						<img src="../img/you.svg" alt="account" width="40px" height="20px">
+						<text class="menu_text"> Account </text>
+					</a>
+				</li>
+			</ul>	
+		</div>
+        <div id="content">
+            <div id="group"> </div>
+        </div>
+	</div>
+</body>
+<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/navigation.js"></script>
+<script type="text/javascript">
+    const request= window.location.href.replace(window.location.host, '').replace('http:///', '');
+    const idSport = request.split("/")[0];
+    const idGroup = request.split("/")[1];
+    $.ajax({
+    url: 'http://localhost:3000/' + idSport + '/' + idGroup +'/d',
+    contentType: 'application/json',
+    success: function printInfo(res) {
+        let group = document.getElementById('group');
+        
+        let sport_name = document.createElement('h1');
+        sport_name.className='sport_name';
+        sport_name.textContent= res.name;
+        group.appendChild(sport_name);
+
+        let group_name = document.createElement('h1');
+        group_name.className='group_name';
+        group_name.textContent= res.group_name;
+        group.appendChild(group_name);
+
+        let team = document.createElement('h1');
+        team.className='team';
+        team.textContent= 'Team photo:';
+        group.appendChild(team);
+
+        let img_team = document.createElement('img');
+        img_team.title='img_team';
+        img_team.style.width= '150px';
+        img_team.style.maxHeight='300px';
+        img_team.src= '../img/team.png';
+        group.appendChild(img_team);
+
+        let tranier_name = document.createElement('h1');
+        tranier_name.className='tranier_name';
+        tranier_name.textContent= 'Trainer: '+res.tranier_name;
+
+        let img_tranier = document.createElement('img');
+        img_tranier.title='img_tranier';
+        img_tranier.style.maxHeight='30px';
+        img_tranier.src= '../img/trainer.svg';
+        tranier_name.appendChild(img_tranier);
+        group.appendChild(tranier_name);
+        
+        let group_info = document.createElement('h1');
+        group_info.className='group_info';
+        group_info.textContent= 'Day: '+ res.day + ' Time: ' + res.time;
+        group.appendChild(group_info);
+
+        let adress_info = document.createElement('h1');
+        adress_info.className='adress_info';
+        adress_info.textContent= 'Location: ' +res.location_name + ' Adress: ' + res.adress;
+        group.appendChild(adress_info);
+
+        let img_loc = document.createElement('img');
+        img_loc.className='img_loc';
+        img_loc.style.width= '400px';
+        img_loc.style.maxHeight='800px';
+        img_loc.src= '../'+ res.img;
+        group.appendChild(img_loc);
+
+        let br = document.createElement('br');
+        group.appendChild(br);
+        
+        let telegramm = document.createElement('button');
+        telegramm.className='telegram-button';
+        telegramm.textContent= "telegram";
+        group.appendChild(telegramm);
+
+        let whatsup = document.createElement('button');
+        whatsup.className='whatsapp-button';
+        whatsup.textContent= "whatsapp";
+        group.appendChild(whatsup);
+
+        let br1 = document.createElement('br');
+        group.appendChild(br1);
+
+        let enroll = document.createElement('button');
+        enroll.className='buttom_e';
+        enroll.textContent= "enroll";
+        group.appendChild(enroll);
+        }  
+    });
+</script>
+</html>

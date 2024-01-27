@@ -64,7 +64,8 @@ $.ajax({
     success: function setIcons(res) {
         res.forEach(function (dataitem) {
         let marker = L.marker(dataitem.coordinate, {title: dataitem.name}).addTo(map)
-        .bindPopup("<a class='buttom_about_sport' title='read more'> "+dataitem.name + "</a><hr>"+ printPhoto(dataitem.photo_of_location, dataitem.location_name) +"Groups: <br>"+ printAllgroups(dataitem.groups), {closeOnClick: false, autoClose: false});
+        .bindPopup("<a class='buttom_about_sport' title='read more'> "+dataitem.name + "</a><hr>"+ 
+        printPhoto(dataitem.photo_of_location, dataitem.location_name) +"Groups: <br>"+ printAllgroups(dataitem.groups, dataitem.id), {closeOnClick: false, autoClose: false});
         var newIcon = new L.Icon({
             iconUrl: dataitem.icon,
             iconSize: [30, 50],
@@ -99,14 +100,16 @@ map.on('locationfound', e => {
 
 
 // other functions
-function printAllgroups(groups) {
+function printAllgroups(groups, id1) {
     let end_groups_text = "";
+    let id2 = 1;
     groups.forEach((group) => {
-        let buttom_enroll = "<a class='buttom_e'> enroll </a>";
-        let buttom_read_more = "<a class='buttom_rm'> read more </a>";
+        let buttom_enroll = "<a class='buttom_e' href='/"+ id1+ "/"+ id2 +"'> enroll </a>";
+        let buttom_read_more = "<a class='buttom_rm' href='/"+ id1+ "/"+ id2 +"'> read more </a>";
         end_groups_text = end_groups_text+ "<br><strong>" + group.group_name + "</strong><br>" + group.day+ " " + group.time  + "<br>  cost: " + group.cost + " by " + group.tranier_name + 
-        "<br>" + buttom_read_more + buttom_enroll + "<br>"; 
-        })
+        "<br>" + buttom_read_more + buttom_enroll + "<br>";
+        id2+=1;
+        });
     return end_groups_text;
 }
 
@@ -114,6 +117,6 @@ function printPhoto(photoURL, location_name){
     if (photoURL.length === 0) {
         return "<h2>"+location_name+'</h2>';
     } else {
-        return "<h2>"+location_name+'</h2><img loading="lazy" src='+ photoURL+ ' alt="photo of location" width="200px"> <hr>'
+        return "<h2>"+location_name+'</h2><img loading="lazy" src='+ photoURL+ ' alt="photo of location" width="200px"> <hr>';
     }
 }
