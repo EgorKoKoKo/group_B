@@ -262,6 +262,14 @@ dt{
     background-color: #0c783f;
 }
 
+.buttom_e:hover{
+	background-color: #7ceeb1;
+}
+
+.buttom_rm:hover{
+	background-color: #817fea;
+}
+
 #group{
 	padding-left: calc(4%);
 	color: azure;
