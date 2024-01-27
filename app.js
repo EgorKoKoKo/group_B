@@ -38,6 +38,14 @@ app.get('/games', (req ,res) => {
 	res.sendFile(path.resolve("public/games.html"));
 });
 
+app.get('/solo', (req ,res) => {
+	res.sendFile(path.resolve("public/solo.html"));
+});
+
+app.get('/non_solo', (req ,res) => {
+	res.sendFile(path.resolve("public/non_solo.html"));
+});
+
 app.get('/alone', (req ,res) => {
 	res.sendFile(path.resolve("public/movement_tracking.html"));
 });
