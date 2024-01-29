@@ -9,7 +9,7 @@ let isBig = true;
 icon.addEventListener("click", event => {
     if (isBig) {
         menu.style.width = 'calc(4%)';
-        icon.style.paddingLeft= '0svh';
+        icon.style.paddingLeft= '0px';
         content.style.width = 'calc(96%)';
         content.style.left = 'calc(4%)';
         isBig = false;
@@ -22,7 +22,7 @@ icon.addEventListener("click", event => {
         }
     } else {
         isBig= true;
-        icon.style.paddingLeft= '3svh';
+        icon.style.paddingLeft= '5px';
         menu.style.width = 'calc(10%)';
         content.style.width = 'calc(90%)';
         content.style.left = 'calc(10%)';
